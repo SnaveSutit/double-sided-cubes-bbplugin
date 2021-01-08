@@ -1,13 +1,14 @@
 (()=> {
 	Plugin.register('double_sided_cubes', {
-		title: 'Double Sided Cube Generator',
+		title: 'Double Sided Cubes',
 		author: 'SnaveSutit',
-		description: 'Creates an inverted duplicate of the selected cube(s) to allow double-sided rendering in java edition',
+		description: 'Creates inverted duplicates of the selected cube(s) to allow double-sided rendering in java edition.',
+		icon: 'flip_to_back',
 		version: '1.0.0',
 		variant: 'both',
 		onload() {
 			cube_action = new Action({
-				id:"create_double_sided_cube",
+				id:"create_double_sided_cubes",
 				name: 'Create Double Sided Cube',
 		    icon: 'flip_to_back',
 		    category: 'edit',
