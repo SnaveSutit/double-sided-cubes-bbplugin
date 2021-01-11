@@ -1,4 +1,4 @@
-(()=> {
+(()=>{
 
 	let cube_action;
 
